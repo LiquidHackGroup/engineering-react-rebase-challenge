@@ -1,3 +1,4 @@
+import AutoReview from "./components/autoReview";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
         <p>My really cool blog site</p>
       </header>
+      <AutoReview />
     </div>
   );
 }
